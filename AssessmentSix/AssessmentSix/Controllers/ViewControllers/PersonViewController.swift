@@ -19,8 +19,9 @@ class PersonViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        PersonController.shared.load()
         setUpViews()
+        PersonController.shared.load()
+        randomize()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -135,6 +136,7 @@ extension PersonViewController: UITableViewDelegate, UITableViewDataSource {
             let personToDelete = pairs[section][row]
             
             PersonController.shared.deletePerson(personToDelete: personToDelete)
+            randomize()
         }
     }
 }
