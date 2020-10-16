@@ -55,6 +55,7 @@ class PersonController {
             let jsonData = try Data(contentsOf: createFileForPersistence())
             let decodedPerson = try jsonDecoder.decode([Person].self, from: jsonData)
             people = decodedPerson
+            print("Loaded People Successfully")
         }catch {
             print(error)
             print(error.localizedDescription)
