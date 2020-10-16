@@ -14,7 +14,7 @@
 		AB3D4F152539EEEF00C173AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3D4F132539EEEF00C173AE /* LaunchScreen.storyboard */; };
 		AB3D4F292539EFC200C173AE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D4F282539EFC200C173AE /* Person.swift */; };
 		AB3D4F2D2539EFFF00C173AE /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D4F2C2539EFFF00C173AE /* PersonController.swift */; };
-		AB3D4F302539F2E700C173AE /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3D4F2F2539F2E700C173AE /* PersonTableViewController.swift */; };
+		AB9869E5253A0B7E00FB7359 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9869E4253A0B7E00FB7359 /* PersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		AB3D4F162539EEEF00C173AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB3D4F282539EFC200C173AE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AB3D4F2C2539EFFF00C173AE /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
-		AB3D4F2F2539F2E700C173AE /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		AB9869E4253A0B7E00FB7359 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		AB3D4F222539EF8400C173AE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AB3D4F2F2539F2E700C173AE /* PersonTableViewController.swift */,
+				AB9869E4253A0B7E00FB7359 /* PersonViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3D4F302539F2E700C173AE /* PersonTableViewController.swift in Sources */,
+				AB9869E5253A0B7E00FB7359 /* PersonViewController.swift in Sources */,
 				AB3D4F2D2539EFFF00C173AE /* PersonController.swift in Sources */,
 				AB3D4F292539EFC200C173AE /* Person.swift in Sources */,
 				AB3D4F092539EEE300C173AE /* AppDelegate.swift in Sources */,

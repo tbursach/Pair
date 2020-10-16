@@ -31,13 +31,12 @@ class PersonController {
         save()
     }
     
-    
     func createFileForPersistence() -> URL {
         let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-        let fileUrl = urls[0].appendingPathComponent("personRandomizer.json")
+        let fileUrl = urls[0].appendingPathComponent("AssessmentSix.json")
         return fileUrl
     }
-    
+
     func save() {
         let jsonEncoder = JSONEncoder()
         do {
@@ -48,10 +47,10 @@ class PersonController {
             print(error.localizedDescription)
         }
     }
-    
+
     func load() {
         let jsonDecoder = JSONDecoder()
-        
+
         do {
             let jsonData = try Data(contentsOf: createFileForPersistence())
             let decodedPerson = try jsonDecoder.decode([Person].self, from: jsonData)
